@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+:root{
+    --fonte-titulo: "Abril Fatface", serif;
+    --fonte-text: "Libre Baskerville", serif;
+    --timberwolf: #d6d2d2ff;
+    --pale-purple: #f1e4f3ff;
+    --orchid-pink: #f4bbd3ff;
+    --persian-pink: #f686bdff;
+    --cyclamen: #fe5d9fff;
+    --rosamedio:rgb(240, 188, 209);
+    --pretinho: rgb(0, 0, 0);
+    --grape: #642ca9ff;
+    --persian-rose: #ff36abff;
+    --rose-pink: #ff74d4ff;
+
+
+}
+
+body{
+    font-family: var(--fonte-text);
+    background-color: var(--pretinho);
+    color: var(--timberwolf);
+}
+
+img-thumbnail{
+    border: 2px solid var(--grape);
+}
+h1,h2,h3{
+    font-family :var(--fonte-titulo);
+    color: var(--persian-rose);
+}
+
+
+.card{
+    background-color: var(--cyclamen);
+    color: var(--cor-letra);
+    text-decoration: none;
+}
+
+
+.modal-header{
+    color: var(--pretinho);
+    font-family: var(--fonte-texto);
+    background-color: var(--orchid-pink);
+}
+
+.modal-body {
+    color: var(--pretinho);
+    font-family: var(--fonte-texto);
+    background-color: var(--orchid-pink);
+}
+
+.modal-footer{
+    font-family: var(--fonte-titulo);
+    background-color: var(--orchid-pink);
+    color: var(--branco);
+}
+.modal-footer a {
+    color: var(--grape);
+}
+
+.card-title{
+    font-family: var(--fonte-titulo);
+    color: var(--grape);
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: var(--pale-purple);
+    color: var(--pretinho);
+    transition: 1s;
+    text-align: center;
+}
+
+.btn {
+    color: var(--branco);
+    transition: 1s;
+    text-align: center;
+}
+
+
+a{
+    color: var(--grape);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+a:hover {
+    background-color: var(--);
+    color: var(--persian-rose);
+    transition: 1s;
+}
+
+.footer-link{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: var(--fonte-titulo);
+    color: var(--grape);
+    position: relative;
+    margin: center;
+}
+
+
+
